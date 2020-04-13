@@ -42,3 +42,10 @@ Make sure to include the right unity environment.
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.
 
+3. Make sure to open the notebook with the right virtual environment.
+
+```bash 
+python -m ipykernel install --user --name <virtualenv_env> --display-name <virtualenv_name>
+```
+
+
